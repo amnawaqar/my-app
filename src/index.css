@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+.table {
+  width: 100%;
+  table-layout: fixed; /* Ensures fixed table layout */
+  border-collapse: collapse; /* Optional: Borders collapse into a single border */
+}
+
+.table th, .table td {
+  border: 1px solid #dddddd; /* Optional: Border styling */
+  padding: 8px; /* Optional: Adjust padding for cell content */
+  text-align: left; /* Optional: Align text within cells */
+  overflow: hidden; /* Optional: Prevent content from overflowing */
+  white-space: nowrap; /* Optional: Prevent line breaks within cells */
+}
+
+/* Optional: Style the table header */
+.table th {
+  background-color: #f2f2f2;
+}
+
